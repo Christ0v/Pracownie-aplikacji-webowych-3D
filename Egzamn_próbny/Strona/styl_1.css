@@ -1,0 +1,63 @@
+#top {
+	width: auto;
+	height: 60px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	background-color:#2F180C
+	
+}
+
+h1{
+	
+	color: khaki;
+}
+body{
+	
+	background-color: F6E5DC;
+}
+img{
+	
+height: 350px;	
+position: absolute;
+top:68px
+}
+
+#right{
+	
+text-align:right;
+
+margin-right: 70px;
+font-size: 150%;
+
+	
+	
+}
+#STOPKA {
+	position: fixed;
+	height: 60px;
+	background: #993300;
+	bottom: -16px;
+	width: 100%;
+	color: khaki;
+}
+#bottom{
+	
+text-align:center;
+width:100%;
+height:500px;
+font-size: 150%;
+background-color:#D0B6A8;
+background-size:contain;
+padding-top:30 px;
+padding-right:30 px;
+padding-bottom:30 px;
+padding-left:30 px;
+}
+div{text-align:center;
+width:100%;
+height:auto;
+font-size: 150%;
+position:relative; bottom:450px;
+
+}
