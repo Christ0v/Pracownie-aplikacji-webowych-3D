@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang ="pl">
+<html>
+<head>
+	<script language ="JavaScript">
+	document.write("<h1> Słowo <br></h1>");
+	document.write("Słowo");
+	function kolor()
+	{
+	document.getElementById('pck').style.color= 'red';
+	
+	
+	}
+	function swiatlowlacz()
+	{
+	//document.getElementById('pck').style.color ="blue"
+	//<img id="zarowka" src ="OFFbulb.jpg">
+	document.getElementById('zarowka').src='ONbulb.jpg'
+	//<button type= "button" onclick ="document.getElementById('zarowka').src='OFFbulb.jpg'">OFF </button>
+	}
+	
+	function swiatlogas()
+	{
+	
+	document.getElementById('zarowka').src='OFFbulb.jpg'
+	
+	}
+	</script>
+	
+</head>
+<body style="background-color:green">
+
+	<h1 id="pkc">To jest strona, żkp</h1>
+	<button type= "button" onclick =kolor() >Click </button>
+
+	<br></br>
+
+	<img id="zarowka" src ="OFFbulb.jpg"></p>
+	<button type="button" onclick =swiatlowlacz() >TURN ON </button >
+	<button type="button" onclick =swiatlogas() >TURN OFF </button >
+
+
+</body>
+</html>
